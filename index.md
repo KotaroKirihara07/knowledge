@@ -1,13 +1,13 @@
 # Index
 
-- [AWS](docs/aws_index.md)
+- [AWS](docs/aws/aws_index.md)
 - aaaaaaaaaa
 - aaaaaaaaaaaa
 - aaaaaaaaaaaaa
 - aaaaaaaaaaaaaa
-- aaaaaaaaaaaaaa
+- aaaaaaaaaaaa
 - aaaaaaaaaaaaa
-- [Linux](linux_index)
+- [Linux](docs/linux/linux_index.md)
 - aaaaaaaaaaaa
 
 
