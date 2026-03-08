@@ -1,6 +1,6 @@
 # Index
 
-- [AWS](docs/aws_index)
+- [AWS](docs/aws_index.md)
 - aaaaaaaaaa
 - aaaaaaaaaaaa
 - aaaaaaaaaaaaa
