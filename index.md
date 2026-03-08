@@ -16,7 +16,7 @@
 - [templates](https://github.com/KotaroKirihara07/templates)
 
 
-|  |  |
-| ----------- | ----------- |
-|  |  |
-|  |  |
+|  |  |||
+| ----------- | ----------- | ----------- | ----------- |
+| [AWS](docs/aws/aws_index.md) | Django |||
+| Excel |  |||
