@@ -1,6 +1,6 @@
 # Index
 
-- [AWS](aws_index)
+- [AWS](docs/aws_index)
 - aaaaaaaaaa
 - aaaaaaaaaaaa
 - aaaaaaaaaaaaa
