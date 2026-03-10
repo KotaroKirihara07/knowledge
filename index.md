@@ -1,14 +1,16 @@
 # Index
 
-- [AWS](docs/aws/aws_index.md)
+- [x] [AWS](docs/aws/aws_index.md)
 - Django
 - Docker
 - Excel
 - HTML/CSS
+- GitHub
+- GitLab
 - Java
 - JavaScript
 - [Linux](docs/linux/linux_index.md)
-- [Markdown](https://www.markdownguide.org/cheat-sheet/)
+- [x] [Markdown](https://www.markdownguide.org/cheat-sheet/)
 - PostgreSQL
 - Python
 - Snowflake
