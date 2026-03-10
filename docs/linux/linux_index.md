@@ -1,6 +1,6 @@
 # Linux
 ## Index
-- [basics]()
+- [basics](linux_basics.md)
 - aaa
 - aaa
 - aaa
