@@ -1,6 +1,6 @@
 # Linux
 ## Index
-- aaa
+- [basics]()
 - aaa
 - aaa
 - aaa
