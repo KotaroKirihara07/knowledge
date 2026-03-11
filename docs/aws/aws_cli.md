@@ -19,6 +19,7 @@ Default region name [None]: ap-northeast-1
 Default output format [None]: json 
 ```
 3. `.aws/config`を以下のように編集する
+
 ```
 [default]  
    region = ap-northeast-1  

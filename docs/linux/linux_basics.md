@@ -81,22 +81,22 @@ hisotriy [option]
 ### コマンドの実行結果のファイルへの書き込み
 #### 標準出力をファイルに上書きする
 ```
-*command* > outputs.txt
+command > outputs.txt
 ```
 
 #### 標準出力をファイルに追記する
 ```
-*command* >> outputs.txt
+command >> outputs.txt
 ```
 
 #### コマンド実行時のすべての出力結果をファイルに上書きする
 ```
-*command* &> outputs.txt
+command &> outputs.txt
 ```
 
 #### コマンド実行時のすべての出力結果をファイルに追記する
 ```
-*command* &>> outputs.txt
+command &>> outputs.txt
 ```
 
 ---
