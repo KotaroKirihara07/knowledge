@@ -3,6 +3,7 @@
 - [x] [AWS](docs/aws/aws_index.md)
 - Django
 - Docker
+- [Elasticsearch](docs/elasticsearch/elasticsearch_index.md)
 - Excel
 - HTML/CSS
 - GitHub
@@ -14,5 +15,5 @@
 - PostgreSQL
 - Python
 - Snowflake
-- Terraform
+- [x] [Terraform](docs/terraform/terraform_index.md)
 - [templates](https://github.com/KotaroKirihara07/templates)
