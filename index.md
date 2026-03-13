@@ -2,18 +2,18 @@
 
 - [x] [AWS](docs/aws/aws_index.md)
 - Django
-- Docker
+- [Docker](docs/docker/docker_index.md)
 - [Elasticsearch](docs/elasticsearch/elasticsearch_index.md)
 - Excel
-- HTML/CSS
-- GitHub
-- GitLab
-- Java
-- JavaScript
+- [x] [HTML/CSS](docs/html/html_index.md)
+- [GitHub](docs/github/github_index.md)
+- [GitLab](docs/gitlab/gitlab_index.md)
+- [Java](docs/java/java_index.md)
+- [JavaScript](docs/javascript/javascript_index.md)
 - [Linux](docs/linux/linux_index.md)
 - [x] [Markdown](https://www.markdownguide.org/cheat-sheet/)
-- PostgreSQL
-- Python
-- Snowflake
+- [PostgreSQL](docs/posgresql/posgresql_index.md)
+- [Python](docs/python/python_index.md)
+- [Snowflake](docs/snowflake/snowflake_index.md)
 - [x] [Terraform](docs/terraform/terraform_index.md)
 - [templates](https://github.com/KotaroKirihara07/templates)
