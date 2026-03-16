@@ -1,9 +1,13 @@
 # Index
 
 - [x] [AWS](docs/aws/aws_index.md)
+- Databricks
 - Django
 - [Docker](docs/docker/docker_index.md)
-- [Elasticsearch](docs/elasticsearch/elasticsearch_index.md)
+- Elastic Stack
+  - Logstash
+  - [Elasticsearch](docs/elasticsearch/elasticsearch_index.md)
+  - Kibana
 - Excel
 - [x] [HTML/CSS](docs/html/html_index.md)
 - [GitHub](docs/github/github_index.md)
