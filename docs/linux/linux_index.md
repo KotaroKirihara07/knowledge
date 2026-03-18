@@ -2,7 +2,9 @@
 ## Index
 - [basics](linux_basics.md)
 - [file/directory](linux_filedir.md)
-- aaa
+- [user/group](linux_usergroup.md)
 - [shell](linux_shell.md)
 - [system](linux_system.md)
 - [process](linux_process.md)
+- [job](linux_job.md)
+- [package](linux_package.md)
