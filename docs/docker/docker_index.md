@@ -1,6 +1,6 @@
 # Docker
 ## Index
-- [install](docker_index.md)
+- [install](docker_install.md)
 - basics
 - Docker Engine
 - Container
