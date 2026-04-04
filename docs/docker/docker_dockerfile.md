@@ -29,40 +29,119 @@
 
 ---
 
-### ベースイメージ
+### FROM
+#### サンプルイメージ
+|image|description|link|
+|-----|-----|-----|
+|`hello-world`|Hello World! (an example of minimal Dockerization)|https://hub.docker.com/_/hello-world|
+
 #### Linuxのイメージ
-|image|description|
-|-----|-----|
-|ubuntu|Ubuntu|
-|centos|CentOS|
-|debian|DebianOS|
-|fedora|Fedora|
-|busybox|BizyBox|
-|alpine|Alpine linux|
-
-#### Webサーバやデータベースサーバのイメージ
-|image|description|
-|-----|-----|
-|httpd|Apache|
-|nginx|Nginx|
-|mysql|MySQL|
-|postgres|PostgreSQL|
-|mariadb|MariaDB|
-|wordpress|WordPress (MySQLまたはMariaDBが必要)|
-|nextcloud|NextCloud|
-|redmine|Redmine (PostgreSQLまたはMySQLが必要)|
-|registry|Dockerレジストリ|
-
+|image|description|link|
+|-----|-----|-----|
+|`ubuntu`|Ubuntu|https://hub.docker.com/_/ubuntu|
+|`centos`|CentOS|https://hub.docker.com/_/centos|
+|`debian`|DebianOS|https://hub.docker.com/_/debian|
+|`fedora`|Fedora|https://hub.docker.com/_/fedora|
+|`busybox`|BizyBox|https://hub.docker.com/_/busybox|
+|`alpine`|Alpine Linux|https://hub.docker.com/_/alpine|
+|`amazonlinux`|Amazon Linux|https://hub.docker.com/_/amazonlinux|
+|`oraclelinux`|Oracle Linux|https://hub.docker.com/_/oraclelinux|
 
 #### プログラミング言語のイメージ
-|image|description|
-|-----|-----|
-|openjdk|Javaの実行環境|
-|[python](https://hub.docker.com/_/python)|Pythonの実行環境|
-|php|PHPの実行環境|
-|ruby|Rubyの実行環境|
-|perl|Perlの実行環境|
-|gcc|C/C++コンパイラ|
-|node|Node.js|
+|image|description|link|
+|-----|-----|-----|
+|`openjdk`|Javaの実行環境|https://hub.docker.com/_/openjdk|
+|`python`|Pythonの実行環境|https://hub.docker.com/_/python|
+|`php`|PHPの実行環境|https://hub.docker.com/_/php|
+|`ruby`|Rubyの実行環境|https://hub.docker.com/_/ruby|
+|`perl`|Perlの実行環境|https://hub.docker.com/_/perl|
+|`gcc`|C/C++コンパイラ|https://hub.docker.com/_/gcc|
+|`node`|Node.js|https://hub.docker.com/_/node|
+|`rust`|Rust|https://hub.docker.com/_/rust|
+|`amazoncorretto`|Corretto(OpenJDK)|https://hub.docker.com/_/amazoncorretto|
+
+#### サービスのイメージ
+|image|description|link|
+|-----|-----|-----|
+|`httpd`|Apache HTTP Server|https://hub.docker.com/_/httpd|
+|`nginx`|Nginx|https://hub.docker.com/_/nginx|
+|`tomcat`|Apache Tomcat|https://hub.docker.com/_/tomcat|
+|`mysql`|MySQL|https://hub.docker.com/_/mysql|
+|`postgres`|PostgreSQL|https://hub.docker.com/_/postgres|
+|`mariadb`|MariaDB|https://hub.docker.com/_/mariadb|
+|`mongo`|MongoDB|https://hub.docker.com/_/mongo|
+|`redis`|Redis|https://hub.docker.com/_/redis|
+|`cassandra`|Apache Cassandra|https://hub.docker.com/_/cassandra|
+|`wordpress`|WordPress (MySQLまたはMariaDBが必要)|https://hub.docker.com/_/wordpress|
+|`nextcloud`|NextCloud|https://hub.docker.com/_/nextcloud|
+|`redmine`|Redmine (PostgreSQLまたはMySQLが必要)|https://hub.docker.com/_/redmine|
+|`elasticsearch`|Elasticsearch|https://hub.docker.com/_/elasticsearch|
+|`kibana`|Kibana|https://hub.docker.com/_/kibana|
+|`logstash`|Logstash|https://hub.docker.com/_/logstash|
+|`fluentd`|Fluentd|https://hub.docker.com/_/fluentd|
+|`spark`|Apache Spark|https://hub.docker.com/_/spark|
+|`flink`|Apache Flink|https://hub.docker.com/_/flink|
+|`maven`|Apache Maven|https://hub.docker.com/_/maven|
+|`gradle`|Gradle|https://hub.docker.com/_/gradle|
+|`registry`|Dockerレジストリ|https://hub.docker.com/_/registry|
+
+---
+
+### RUN
+#### Ubuntu
+```
+RUN apt-get update && \
+    apt-get install -y curl vim git && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+```
+
+#### CentOS
+```
+RUN dnf -y update && \
+    dnf -y install curl vim git && \
+    dnf clean all
+```
+
+#### Amazon Linux
+```
+RUN dnf -y install curl vim git && \
+    dnf clean all
+```
+
+#### Python
+```
+RUN pip install --no-cache-dir -r requirements.txt
+```
+
+---
+
+### COPY
+
+
+---
+
+### USER
+
+
+---
+
+### ENV
+
+
+---
+
+### VOLUME
+
+
+---
+
+### WORKDIR
+
+
+---
+
+### ENTRYPOINT
+
 
 ---
