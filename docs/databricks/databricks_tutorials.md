@@ -1,7 +1,10 @@
 # [Databricks](databricks_index.md)
 ## チュートリアル
-|tutorial|link|
-|-----|-----|
+|tutorial|link|check|
+|-----|-----|-----|
+|Fundamentals|-|☑|
+|Get started with data engineering|-|☑|
+|Get started with Analytics & BI|-|☑|
 |Databricks Free Edition|https://qiita.com/taka_yayoi/items/33e9cfa7ca9ca9febe72|
 |Databricks Free Editionで学ぶAI/BI Genie|https://qiita.com/taka_yayoi/items/d2d7b74f0806975a8d63|
 |Databricks Free Editionで学ぶDatabricksノートブック|https://qiita.com/taka_yayoi/items/3d7c642cbdda4669b8c4|
