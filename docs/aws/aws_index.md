@@ -10,4 +10,4 @@
 - [AWS アーキテクチャアイコン](https://aws.amazon.com/jp/architecture/icons/)
 - [IAM サービス認可リファレンス](https://docs.aws.amazon.com/ja_jp/service-authorization/latest/reference/reference.html)
 ### メモのリンク
-- [AWS CLI](aws_cli)
+- [AWS CLI](aws_cli.md)
