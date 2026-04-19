@@ -200,10 +200,6 @@ locals {
 [Expressions](https://developer.hashicorp.com/terraform/language/expressions)は値を取得、計算、変換するために使用する記述
 
 ---
-### Module
-[Modules overview](https://developer.hashicorp.com/terraform/tutorials/modules/module)
-
----
 
 ### import
 importブロックを利用して既存のリソースを取り込むことができる
