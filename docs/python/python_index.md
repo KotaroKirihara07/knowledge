@@ -19,6 +19,7 @@
 - datetime
 - [logging](python_logging.md)
 ### 外部ライブラリ
+- [pytest](python_pytest.md)
 - [▲requests](python_requests.md)
 - JupyterLab
 - [Numpy](https://numpy.org/doc/stable/reference/index.html)
