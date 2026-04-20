@@ -6,10 +6,10 @@
 |-----|-----|
 |`ADD`|ビルドコンテクストやリモートのURLからイメージへファイルをコピーする|
 |`ARG`|docker buildする際に指定できる引数を宣言する|
-|`CMD`|コンテナ起動後に指定された命令を実行する|
+|`CMD`|コンテナ起動後に指定された命令を実行する (コマンドや引数を変更して実行できる)|
 |`COPY`|ファイルやディレクトリをコピーする|
-|`ENTRYPOINT`|コンテナの起動時に実行する実行可能ファイルとデフォルト引数を指定する|
-|`ENV`|環境変数を設定する|
+|`ENTRYPOINT`|コンテナの起動時に実行する実行可能ファイルとデフォルト引数を指定する(コマンドや引数を変更して実行できない)|
+|`ENV`|環境変数を設定する (環境変数の型は文字列)|
 |`EXPOSE`|プロセスの接続ポートを指定する (注意: 使用するポートを宣言するだけ)|
 |`FROM`|ベースイメージを指定する|
 |`HEALTHCHECK`|ヘルスチェックの方法をカスタマイズする|
@@ -116,32 +116,57 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 ---
 
-### COPY
-
-
----
-
-### USER
-
+### WORKDIR
+```
+WORKDIR /app
+```
 
 ---
 
 ### ENV
-
-
----
-
-### VOLUME
-
+```
+ENV APP_ENV=production
+ENV PORT=8080
+```
 
 ---
 
-### WORKDIR
+### COPY
+```
+COPY requirements.txt /app/
+COPY src/ /app/src/
+```
 
+---
+
+### USER
+```
+RUN useradd -m docker_user
+USER docker_user
+```
 
 ---
 
 ### ENTRYPOINT
+```
+ENTRYPOINT ["python", "main.py"]
 
+```
+
+---
+
+### CMD
+```
+CMD ["python", "main.py"]
+```
+
+---
+
+### ENTRYPOINT & CMD
+```
+# コマンド固定、引数可変の場合 (CMDにデフォルト引数を設定する)
+ENTRYPOINT ["python", "main.py"]
+CMD ["--arg1", "aaa", "--arg2", "100"]
+```
 
 ---

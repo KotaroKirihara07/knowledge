@@ -1,5 +1,21 @@
 # [Docker](docker_index.md)
 ## basics
+### Docker Engineの操作
+```
+sudo systemctl <command> docker
+```
+
+|command|description|
+|-----|-----|
+|`status`|Docker Engineの状態を確認する|
+|`start`|Docker Engineの起動|
+|`restart`|Docker Engineの再起動|
+|`stop`|Docker Engineの終了|
+|`enable`|Docker Engineの自動起動の設定|
+|`disable`|Docker Engineの自動起動の設定を解除する|
+
+---
+
 ### Dockerfileを使用したコンテナの作成
 一つのコンテナ(一つのサービス)を構築する場合、`Dockerfile`を使用すると便利。
 1. `Dockerfile`を作成する
