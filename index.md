@@ -20,7 +20,7 @@
 - [ ] C++
 ## OSS
 - [ ] [Docker](docs/docker/docker_index.md)
-- [ ] Kubernetes
+- [ ] [Kubernetes](docs/kubernetes/kubernetes_index.md)
 - Elastic Stack
   - [ ] beats
   - [ ] Logstash
